@@ -1,0 +1,35 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>platform-application</key>
+    <true/>
+    <key>com.apple.private.security.no-container</key>
+    <true/>
+	<key>com.apple.private.persona-mgmt</key>
+    <true/>
+    <key>com.apple.security.pasteboard</key>
+    <true/>
+    <key>com.apple.security.temporary-exception.pasteboard</key>
+    <true/>
+    <key>com.apple.security.app-sandbox</key>
+    <true/>
+    <key>com.apple.Pasteboard.trusted-bundle-layout</key>
+    <true/>
+    <key>com.apple.Pasteboard.trusted-authentication-message-request</key>
+    <true/>
+    <key>com.apple.Pasteboard.paste-unchecked</key>
+    <true/>
+    <key>com.apple.Pasteboard.originating-bundle-id-query</key>
+    <true/>
+    <key>com.apple.Pasteboard.copy-on-paste</key>
+    <true/>
+    <key>com.apple.Pasteboard.background-access</key>
+    <true/>
+    <key>com.apple.security.iokit-user-client-class</key>
+ 	<array>
+ 		<string>AGXDeviceUserClient</string>
+ 		<string>IOHDIXControllerUserClient</string>
+ 		<string>IOSurfaceRootUserClient</string>
+ 	</array>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+Package: com.0xkuj.pasteboard-utils
+Name: pasteboard-utils
+Version: 1.0
+Architecture: iphoneos-arm
+Description: pasteboard actions using CLI
+Maintainer: 0xkuj
+Author: 0xkuj
+Section: System
+Tag: role::hacker
